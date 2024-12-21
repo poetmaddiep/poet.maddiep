@@ -4,8 +4,8 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    color: #333;
     background: linear-gradient(to right, #722F37, #733f73);
+    color: white;
 }
 
 /* Header Styles */
