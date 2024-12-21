@@ -162,6 +162,28 @@ h2 {
     color: #555;
 }
 
+/* Section Styling */
+.section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.section.home {
+    padding: 6rem 2rem;
+}
+
+.section.about {
+      padding: 6rem 2rem;
+}
+
+.section.performances {
+      padding: 6rem 2rem;
+}
+
+.section.contact {
+      padding: 6rem 2rem;
+}
+
 /* Contact Form */
 form {
     max-width: 500px;
