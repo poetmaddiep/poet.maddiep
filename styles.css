@@ -161,23 +161,41 @@ h2 {
     line-height: 1.4;
     color: #555;
 }
-/* Contact Button */
-.contact-button {
-    display: block;
-    width: fit-content;
-    margin: 2rem auto;
-    padding: 0.8rem 2rem;
-    font-size: 1.2rem;
-    color: white;
-    background: #2B4F39;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+
+/* Contact Form */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
 }
 
-.contact-button:hover {
-    background: #243B55;
+label {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2rem;
 }
+
+input, textarea, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Garamond', serif;
+}
+
+button {
+    background-color: #500000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #8b0000;
+}
+
 
 /* Footer */
 footer {
