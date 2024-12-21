@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(to right, #243B55, #2B4F39);
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+/* Navigation Bar */
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #4A306D;
+}
+
+.nav-bar li {
+    margin: 0 1rem;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Garamond', serif;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-bar a:hover {
+    background-color: #2B4F39;
+    color: #f9f9f9;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background: #722F37;
+    color: white;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.hero h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero p {
+    margin: 1rem 0 0;
+    font-size: 1.2rem;
+}
+
+/* Highlights Section */
+.highlights {
+    background: #f9f9f9;
+    color: #333;
+    padding: 2rem 1rem;
+}
+
+.highlights h2 {
+    font-family: 'Garamond', serif;
+    color: #2c3e50;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.highlights .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.highlights .grid-item {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.highlights .grid-item h3 {
+    font-size: 1.5rem;
+    color: #4A306D;
+    margin-bottom: 0.5rem;
+}
+
+.highlights .grid-item p {
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #555;
+}
+
+/* Contact Button */
+.contact-button {
+    display: block;
+    width: fit-content;
+    margin: 2rem auto;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    color: white;
+    background: #2B4F39;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background: #243B55;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+footer .social-links {
+    margin-top: 0.5rem;
+}
+
+footer .social-links a {
+    color: white;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+footer .social-links a:hover {
+    color: #1abc9c;
+}
