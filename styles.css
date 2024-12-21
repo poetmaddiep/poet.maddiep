@@ -10,7 +10,7 @@ body {
 
 /* Header Styles */
 header {
-    background: linear-gradient(to right, #243B55, #2B4F39);
+    background: linear-gradient(to right, #722F37, #733f73);
     color: white;
     padding: 1.5rem 0;
     text-align: center;
@@ -141,7 +141,7 @@ header p {
 
 /* Footer */
 footer {
-    background: #2c3e50;
+    background: #722F37;
     color: white;
     text-align: center;
     padding: 1rem 0;
